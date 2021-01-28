@@ -26,7 +26,7 @@ double segiempat(double panjang, double lebar) {
 // lamda expression / arrow expression
 double luas_segiempat(double panjang, double lebar) => panjang * lebar;
 
-int doMathOperator(int number1, int number2, Function operator) {
+int doMathOperator(int number1, int number2, Function(int, int) operator) {
   return operator(number1, number2);
 }
 
